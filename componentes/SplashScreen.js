@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { View, ActivityIndicator, Image, StyleSheet } from 'react-native';
 
-const SplashScreen = ({ navigator }) => {
+const SplashScreen = ({ navigation }) => {
     useEffect(() => {
         // Define a duração do splash (4 segundos)
         const timer = setTimeout(() => {
